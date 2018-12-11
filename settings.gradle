@@ -1,2 +1,8 @@
 rootProject.name = 'zero'
+include 'zero-learn-samples'
+include 'zero-learn-senior'
+include 'zero-common-starter'
+include 'zero-learn-jpa'
+include 'zero-learn-jpa'
+include 'zero-learn-rabbitmq'
 
