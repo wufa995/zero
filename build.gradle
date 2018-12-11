@@ -1,0 +1,21 @@
+group 'zero'
+version '1.0-SNAPSHOT'
+// 版本号统一修改，勿动
+// 顶级构建文件，可以在其中添加所有子项目/模块共有的配置选项。
+
+buildscript {
+    repositories {
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}
+        //jcenter()
+    }
+    dependencies {
+        // 注意：不要将应用程序依赖项放在这里，它们属于在单个模块build.gradle文件中
+    }
+}
+
+allprojects {
+    repositories {
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}
+        //jcenter()
+    }
+}
